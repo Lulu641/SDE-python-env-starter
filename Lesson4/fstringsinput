@@ -1,9 +1,9 @@
 name = input('What is your name? ')
 print(f'Welcome to our escape room, {name}!')
 
-doors = input('Which door leads to the exit 1,2, or 3 ')
+doors = input('Which door leads to the exit 1,2, or 3? ')
 
-if doors == 1
+if doors == '1':
   print('You escaped!')
 else:
   print('Wrong try again mwahaha')
