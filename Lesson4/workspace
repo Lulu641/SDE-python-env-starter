@@ -1,0 +1,22 @@
+number = int(input("Enter a number: "))
+
+if number > 0:
+    print("The number is positive.")
+elif number < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
+
+cat_colors = ["brown", "white", "blue", "black"]
+
+for cat in cat_colors:
+    if cat == "blue":
+        print("Wait did you say blue? There are no blue cats!")
+        break
+    elif cat == "black":
+        print("Black cats are scary..")
+        break
+    elif cat == "brown":
+        print("There are", cat, "cats.")
+    else:
+        print("There are", cat, "cats.")
