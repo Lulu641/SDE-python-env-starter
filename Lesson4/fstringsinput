@@ -1,2 +1,9 @@
-name = input("What is your name? ")
-print(f'Welcome {name}!"
+name = input('What is your name? ')
+print(f'Welcome to our escape room, {name}!')
+
+doors = input('Which door leads to the exit 1,2, or 3 ')
+
+if 1 == 1
+  print('You escaped!')
+else:
+  print('Wrong try again mwahaha')
