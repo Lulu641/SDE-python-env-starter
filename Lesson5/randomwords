@@ -1,0 +1,11 @@
+import random
+
+random_words = [orange, chair, mouse, zebra, pentagon]
+password = random.choice(random_words)
+print("Here are your possible words (one is the password):")
+
+for word in random_words:
+    if word == password:
+        print(word.upper())
+    else:
+        print(word) 
