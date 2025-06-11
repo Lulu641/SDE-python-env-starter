@@ -2,4 +2,4 @@ import random
 
 names = ["Lucas","Rachith","Saanvi","Alex","Aya"]
 name_option = random.choice(names)
-print(name_option)
+print(f"The selected name is: {name_option}")
