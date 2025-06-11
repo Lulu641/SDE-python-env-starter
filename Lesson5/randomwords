@@ -1,6 +1,6 @@
 import random
 
-random_words = ["orange, chair, mouse, zebra, pentagon"]
+random_words = ["orange", "chair", "mouse", "zebra", "pentagon"]
 password = random.choice(random_words)
 print("Here are your possible words (one is the password):")
 
